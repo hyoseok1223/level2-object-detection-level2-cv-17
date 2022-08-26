@@ -2,8 +2,7 @@ import os
 import glob
 from pathlib import Path
 import re
-import wandb # key : db3dfb28050584618b561f9040b7fb3456a5e1f9
-# Appending key for api.wandb.ai to your netrc file: /opt/ml/.netrc
+import wandb 
 
 
 def increment_path(path, exist_ok=False):
